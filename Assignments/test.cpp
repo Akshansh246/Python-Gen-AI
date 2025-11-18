@@ -2,15 +2,9 @@
 using namespace std;
 
 int main(){
-    int a;
-    long long b;
-    char c;
-    float d;
-    double e;
-    cin>>a>>b>>c>>d>>e;
-    cout<<a<<'\n';
-    cout<<b<<'\n';
-    cout<<c<<'\n';
-    cout<<d<<'\n';
-    cout<<e<<'\n';
+   long long a, b;
+   cin>>a>>b;
+   cout<<a<<" + "<<b<<" = "<<a+b<<"\n";
+   cout<<a<<" * "<<b<<" = "<<a*b<<"\n";
+   cout<<a<<" - "<<b<<" = "<<a-b<<"\n";
 }
